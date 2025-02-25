@@ -12,7 +12,7 @@ using MvcMovie.Data;
 namespace MvcMovie.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
-    [Migration("20250225124049_Rating")]
+    [Migration("20250225140022_Rating")]
     partial class Rating
     {
         /// <inheritdoc />

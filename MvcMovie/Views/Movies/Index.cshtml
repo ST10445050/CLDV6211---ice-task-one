@@ -59,7 +59,7 @@
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Rating)
+                    @Html.DisplayFor(modelItem => item.Rating) <!-- Added Rating Column -->
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
@@ -70,3 +70,4 @@
         }
     </tbody>
 </table>
+
