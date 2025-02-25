@@ -10,6 +10,7 @@ namespace MvcMovie.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            
 
         }
 
